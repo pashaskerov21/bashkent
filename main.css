@@ -382,10 +382,236 @@ footer .footer-bottom{font-size: 2rem;color: #fff;}
     border: none;
     transform: translateY(200px);
     transition: 0.3s;
+    margin: 40px;
+    z-index: 999;
 }
 #page-up-scroll-btn.show{transform: translateY(0);transition: 0.3s;}
 #page-up-scroll-btn:hover{background-color: #ca3d26;}
 
 
 
+.bashkent-main .bashkent-about-panel .about-header{
+    padding: 5px 8px;
+}
+
+.bashkent-main .bashkent-about-panel .about-header h2{
+    font-size: 3.5rem;
+    cursor: default;
+    transition: 0.3s;
+}
+.bashkent-main .bashkent-about-panel .about-header h2:hover{
+    color: #ca3d26;
+}
+.bashkent-main .bashkent-about-panel .about-text p{
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 5px 8px;
+}
+@media only screen and (min-width: 992px){
+    .bashkent-main .bashkent-about-panel .about-text p{
+        text-align: start;
+        padding: 0 8px;
+        margin: 0;
+    }
+}
+.bashkent-main .bashkent-about-panel .about-content button{
+    border: none;
+    background-color: #ca3d26;
+    align-self: center;
+    padding: 12px 35px;
+    margin: 20px 0;
+}
+.bashkent-main .bashkent-about-panel .about-content button a{
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.bashkent-main .nb-header h2{
+    font-size: 3.5rem;
+    margin-bottom: -20%;
+    transition: 0.3s;
+    cursor: default;
+}
+.bashkent-main .nb-header:hover h2{
+    color: #ca3d26;
+}
+.bashkent-main .nb-content span{
+    font-size: 2rem;
+    padding: 10px 0;
+}
+
+
+.bashkent-main .filial-swiper{
+    width: 100%;
+    padding: 50px 0;
+}
+.bashkent-main .filial-swiper .f-header h2{
+    font-size: 3.5rem;
+    margin-bottom: -20%;
+    transition: 0.3s;
+    cursor: default;
+}
+.bashkent-main .filial-swiper .f-header:hover h2{
+    color: #ca3d26;
+}
+.bashkent-main .filial-swiper .mySwiper2{
+    width: 100%;
+}
+.bashkent-main .filial-swiper .mySwiper2 .swiper-slide{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.bashkent-main .filial-swiper .mySwiper2 .swiper-slide .slide-image{
+    width: 100%;
+    display: block;
+}
+.bashkent-main .filial-swiper .mySwiper2 .swiper-slide .slide-image img{
+    transition: 0.3s;   
+}
+.bashkent-main .filial-swiper .mySwiper2 .swiper-slide .slide-image:hover img{
+    transform: scale(1.2);
+    
+}
+.bashkent-main .filial-swiper .mySwiper2 .swiper-slide span{
+    position: absolute;
+    bottom: 0;
+    margin: 30px;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+}
+@media only screen and (min-width:768px){
+    .bashkent-main .filial-swiper .mySwiper2 .swiper-slide span{
+        font-size: 2.5rem;
+    }
+}
+
+
+
+.bashkent-main .menu-section .menu-item{
+    position: relative;
+}
+.bashkent-main .menu-section .menu-item .black-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+.bashkent-main .menu-section .menu-item .black-bg:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+.bashkent-main .menu-section .menu-item a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.bashkent-main .menu-section .menu-item:hover a{
+    transform: translate(50px, 50px);
+    font-size: 2.5rem;
+}
+
+
+.bashkent-main .partners-swiper .mySwiper3{
+    width: 100%;
+}
+
+.bashkent-main .partners-swiper .mySwiper3 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+
+
+
+.bashkent-main .blog-section .blog-header h2{
+    font-size: 3.5rem;
+    margin-bottom: -20%;
+    transition: 0.3s;
+    cursor: default;
+}
+.bashkent-main .blog-section .blog-header:hover h2{
+    color: #ca3d26;
+}
+
+.blog-section .mySwiper4{
+    width: 100%;
+}
+
+.blog-section .mySwiper4 .blog-panel{
+    color: #000;
+    text-decoration: none;
+    cursor: default;
+    transition: 0.3s;
+}
+.blog-section .mySwiper4 .swiper-slide{
+    transition: 0.3s;
+}
+.blog-section .mySwiper4 .swiper-slide:hover{
+    box-shadow: 0 0 8px rgba(0,0,0,0.4);
+}
+.blog-section .mySwiper4 .blog-panel .blog-image img{
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.blog-content h2{
+    font-size: 2.2rem;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 8px;
+}
+.blog-content h2:hover{
+    color: #ca3d26;
+}
+.blog-content .red-line{
+    width: 30%;
+    height: 2px;
+    margin: auto;
+    background-color: #ca3d26;
+}
+.blog-content p{
+    font-size: 1.8rem;
+    margin: 0;
+    padding: 8px;
+    color: rgba(0,0,0,0.7);
+}
+.blog-content a{
+    text-decoration: none;
+    font-size: 2rem;
+    text-align: center;
+    padding: 5px 0;
+    color: #000;
+    transition: 0.3s;
+}
+.blog-content a:hover{
+    color: #ca3d26;
+}
+.blog-content span{
+    font-size: 1.8rem;
+    padding: 5px 0 10px;
+}
 
