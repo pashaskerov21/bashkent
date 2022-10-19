@@ -119,6 +119,7 @@ header .mobile-search-panel{
     align-items: center;
     transform: translateY(-1500px);
     transition: 0.3s;
+    z-index: 9999;
 }
 header .mobile-search-panel.open{transform: translateY(0);transition: 0.3s;}
 header .close-mobile-search{
