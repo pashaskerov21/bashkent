@@ -382,7 +382,7 @@ footer .footer-bottom{font-size: 2rem;color: #fff;}
     border: none;
     transform: translateY(200px);
     transition: 0.3s;
-    margin: 40px;
+    margin: 40px 25px;
     z-index: 999;
 }
 #page-up-scroll-btn.show{transform: translateY(0);transition: 0.3s;}
@@ -619,37 +619,60 @@ footer .footer-bottom{font-size: 2rem;color: #fff;}
 
 
 .bashkent-main .gallery .image-grid{
+    width: 80%;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(3,1fr);
-    gap: 10px;
-    grid-template-areas: 
-    "img-1 img-2 img-3 img-3"
-    "img-4 img-5 img-3 img-3"
-    "img-6 img-5 img-7 img-7";  
+    grid-template-columns: 1fr;
+    gap: 15px;
+    
+}
+.bashkent-main .gallery .image-grid a img{
+    height: 100%;
+    object-fit: cover;
+    
+}
+@media only screen and (min-width: 768px){
+    .bashkent-main .gallery .image-grid{
+        width: 100%;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-areas: 
+        "img-1 img-2 img-4"
+        "img-3 img-3 img-5"
+        "img-3 img-3 img-5"
+        "img-6 img-7 img-7";
+    }
+    .bashkent-main .gallery .image-grid a:nth-child(1){
+        grid-area: img-1;
+    }
+    .bashkent-main .gallery .image-grid a:nth-child(2){
+        grid-area: img-2;
+    }
+    .bashkent-main .gallery .image-grid a:nth-child(3){
+        grid-area: img-3;
+    }
+    .bashkent-main .gallery .image-grid a:nth-child(4){
+        grid-area: img-4;
+    }
+    .bashkent-main .gallery .image-grid a:nth-child(5){
+        grid-area: img-5;
+    }
+    .bashkent-main .gallery .image-grid a:nth-child(6){
+        grid-area: img-6;
+    }
+    .bashkent-main .gallery .image-grid a:nth-child(7){
+        grid-area: img-7;
+    }  
+}
+@media only screen and (min-width: 992px){
+    .bashkent-main .gallery .image-grid{
+        width: 100%;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-areas: 
+        "img-1 img-2 img-3 img-3"
+        "img-4 img-5 img-3 img-3"
+        "img-6 img-5 img-7 img-7";
+    }
 }
 
-.bashkent-main .gallery .image-grid div:nth-child(1){
-    grid-area: img-1;
-}
-.bashkent-main .gallery .image-grid div:nth-child(2){
-    grid-area: img-2;
-}
-.bashkent-main .gallery .image-grid div:nth-child(3){
-    grid-area: img-3;
-}
-.bashkent-main .gallery .image-grid div:nth-child(4){
-    grid-area: img-4;
-}
-.bashkent-main .gallery .image-grid div:nth-child(5){
-    grid-area: img-5;
-}
-.bashkent-main .gallery .image-grid div:nth-child(6){
-    grid-area: img-6;
-}
-.bashkent-main .gallery .image-grid div:nth-child(7){
-    grid-area: img-7;
-}
 
 
 
