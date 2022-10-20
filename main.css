@@ -502,7 +502,7 @@ footer .footer-bottom{font-size: 2rem;color: #fff;}
     background-color: rgba(0,0,0,0.3);
     transition: 0.3s;
 }
-.bashkent-main .menu-section .menu-item .black-bg:hover{
+.bashkent-main .menu-section .menu-item:hover .black-bg{
     background-color: rgba(0,0,0,0.8);
 }
 .bashkent-main .menu-section .menu-item a{
@@ -517,9 +517,10 @@ footer .footer-bottom{font-size: 2rem;color: #fff;}
     transition: 0.3s;
 }
 .bashkent-main .menu-section .menu-item:hover a{
-    transform: translate(50px, 50px);
+    transform: translate(20px, 50px);
     font-size: 2.5rem;
 }
+
 
 
 .bashkent-main .partners-swiper .mySwiper3{
@@ -557,49 +558,49 @@ footer .footer-bottom{font-size: 2rem;color: #fff;}
     color: #ca3d26;
 }
 
-.blog-section .mySwiper4{
+.bashkent-main .blog-section .mySwiper4{
     width: 100%;
 }
 
-.blog-section .mySwiper4 .blog-panel{
+.bashkent-main .blog-section .mySwiper4 .blog-panel{
     color: #000;
     text-decoration: none;
     cursor: default;
     transition: 0.3s;
 }
-.blog-section .mySwiper4 .swiper-slide{
+.bashkent-main .blog-section .mySwiper4 .swiper-slide{
     transition: 0.3s;
 }
 .blog-section .mySwiper4 .swiper-slide:hover{
     box-shadow: 0 0 8px rgba(0,0,0,0.4);
 }
-.blog-section .mySwiper4 .blog-panel .blog-image img{
+.bashkent-main .blog-section .mySwiper4 .blog-panel .blog-image img{
     height: 300px;
     object-fit: cover;
     cursor: pointer;
 }
-.blog-content h2{
+.bashkent-main .blog-content h2{
     font-size: 2.2rem;
     cursor: pointer;
     transition: 0.3s;
     padding: 8px;
 }
-.blog-content h2:hover{
+.bashkent-main .blog-content h2:hover{
     color: #ca3d26;
 }
-.blog-content .red-line{
+.bashkent-main .blog-content .red-line{
     width: 30%;
     height: 2px;
     margin: auto;
     background-color: #ca3d26;
 }
-.blog-content p{
+.bashkent-main .blog-content p{
     font-size: 1.8rem;
     margin: 0;
     padding: 8px;
     color: rgba(0,0,0,0.7);
 }
-.blog-content a{
+.bashkent-main .blog-content a{
     text-decoration: none;
     font-size: 2rem;
     text-align: center;
@@ -607,11 +608,82 @@ footer .footer-bottom{font-size: 2rem;color: #fff;}
     color: #000;
     transition: 0.3s;
 }
-.blog-content a:hover{
+.bashkent-main .blog-content a:hover{
     color: #ca3d26;
 }
-.blog-content span{
+.bashkent-main .blog-content span{
     font-size: 1.8rem;
     padding: 5px 0 10px;
 }
 
+
+
+.bashkent-main .gallery .image-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 10px;
+    grid-template-areas: 
+    "img-1 img-2 img-3 img-3"
+    "img-4 img-5 img-3 img-3"
+    "img-6 img-5 img-7 img-7";  
+}
+
+.bashkent-main .gallery .image-grid div:nth-child(1){
+    grid-area: img-1;
+}
+.bashkent-main .gallery .image-grid div:nth-child(2){
+    grid-area: img-2;
+}
+.bashkent-main .gallery .image-grid div:nth-child(3){
+    grid-area: img-3;
+}
+.bashkent-main .gallery .image-grid div:nth-child(4){
+    grid-area: img-4;
+}
+.bashkent-main .gallery .image-grid div:nth-child(5){
+    grid-area: img-5;
+}
+.bashkent-main .gallery .image-grid div:nth-child(6){
+    grid-area: img-6;
+}
+.bashkent-main .gallery .image-grid div:nth-child(7){
+    grid-area: img-7;
+}
+
+
+
+.comments .comment-header h2{
+    font-size: 3.3rem;
+    margin-bottom: -17%;
+    transition: 0.3s;
+    cursor: default;
+}
+.comments .comment-header:hover h2{
+    color: #ca3d26;
+}
+
+.comments .mySwiper5{
+    width: 70%;
+}
+
+.comments .mySwiper5 .user-image img{
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.comments .mySwiper5 .user-point i{
+    color: #FFD700;
+}
+.comments .mySwiper5 .user-comment{
+    
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    margin: 10px 15px;
+}
+.comments .mySwiper5 .user-comment span{
+    font-size: 1.6rem;
+    padding: 0 7px;
+}

@@ -186,7 +186,7 @@
         <div class="swiper mySwiper2">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <a href="#" class="slide-image"><img src="../image/1-bashkent-main/filial/img-1.png" class="w-100"></a> p-0
+                    <a href="#" class="slide-image"><img src="../image/1-bashkent-main/filial/img-1.png" class="w-100"></a>
                     <span>Başkent Nərimanov</span>
                 </div>
                 <div class="swiper-slide">
@@ -295,6 +295,81 @@
             </div>
         </div>
     </section>
+    <section class="gallery py-5">
+        <div class="container">
+            <div class="image-grid">
+                <div class="border"><img src="../image/1-bashkent-main/gallery/img-1.png" class="w-100 h-100"></div>
+                <div class="border"><img src="../image/1-bashkent-main/gallery/img-2.png" class="w-100 h-100"></div>
+                <div class="border"><img src="../image/1-bashkent-main/gallery/img-3.png" class="w-100 h-100"></div>
+                <div class="border"><img src="../image/1-bashkent-main/gallery/img-4.png" class="w-100 h-100"></div>
+                <div class="border"><img src="../image/1-bashkent-main/gallery/img-5.png" class="w-100 h-100"></div>
+                <div class="border"><img src="../image/1-bashkent-main/gallery/img-6.png" class="w-100 h-100"></div>
+                <div class="border"><img src="../image/1-bashkent-main/gallery/img-7.png" class="w-100 h-100"></div>
+            </div>
+        </div>
+    </section>
+    <section class="comments py-5">
+        <div class="container d-flex flex-column align-items-center">
+            <div class="comment-header d-flex flex-column align-items-center">
+                <h2 class="text-center">Müştəri rəyləri</h2>
+                <img src="../image/design-wheat/rotate.png">
+            </div>
+            <div class="swiper mySwiper5">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide d-flex flex-column align-items-center flex-md-row">
+                        <div class="d-flex flex-column align-items-center">
+                            <div class="user-image"><img src="../image/1-bashkent-main/comment/img-1.jpg"></div>
+                            <div class="user-point">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="user-comment border">
+                            <span>Salam. Nərimanov filialına dostlarımla birlikdə ad günümü qeyd etməyə gəlmişdik. Yeməkləri və restoranın aurası çox xoşumuza gəldi. Sizə təşəkkür edirəm.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide d-flex flex-column align-items-center flex-md-row">
+                        <div class="d-flex flex-column align-items-center">
+                            <div class="user-image"><img src="../image/1-bashkent-main/comment/img-2.webp"></div>
+                            <div class="user-point">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="user-comment border">
+                            <span>Restoranı çox bəyəndim, həm servisi həm də aurası çox gözəl idi.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide d-flex flex-column align-items-center flex-md-row">
+                        <div class="d-flex flex-column align-items-center">
+                            <div class="user-image"><img src="../image/1-bashkent-main/comment/img-3.png"></div>
+                            <div class="user-point">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="user-comment border">
+                            <span>Salam. Nərimanov filialına dostlarımla birlikdə ad günümü qeyd etməyə gəlmişdik. Yeməkləri və restoranın aurası çox xoşumuza gəldi. Sizə təşəkkür edirəm.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="main-map d-flex justify-content-center p-5">
+            <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1UQoB2Xo9DSiKrUx5V290Dxzny7WCIB0&ehbc=2E312F" style="width: 100%; height:460px;"></iframe>
+        </div>
+    </section>
    </main>
 
    <footer>
@@ -377,6 +452,7 @@
           delay: 5000,
           },
           slidesPerView: 1,
+          spaceBetween: 20,
           loop: true,
           pagination: {
             el: ".swiper-pagination",
@@ -413,7 +489,7 @@
           delay: 9000,
           },
           slidesPerView: 1,
-          
+          spaceBetween: 20,
           pagination: {
             el: ".swiper-pagination",
             clickable: true,
@@ -422,6 +498,19 @@
             640: {slidesPerView: 2,spaceBetween: 20},
             868: {slidesPerView: 3,spaceBetween: 20},
             },
+        });
+      </script>
+      <script>
+        var swiper = new Swiper(".mySwiper5", {
+          autoplay: {
+          delay: 9000,
+          },
+          slidesPerView: 1,
+          spaceBetween: 20,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
         });
       </script>
   </body>
