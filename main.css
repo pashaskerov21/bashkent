@@ -390,23 +390,10 @@ footer .footer-bottom{font-size: 2rem;color: #fff;}
 
 
 
-.bashkent-main .bashkent-about-panel .about-header{
-    padding: 5px 8px;
-}
-
-.bashkent-main .bashkent-about-panel .about-header h2{
-    font-size: 3.5rem;
-    cursor: default;
-    transition: 0.3s;
-}
-.bashkent-main .bashkent-about-panel .about-header h2:hover{
-    color: #ca3d26;
-}
-.bashkent-main .bashkent-about-panel .about-text p{
-    font-size: 1.6rem;
-    text-align: center;
-    padding: 5px 8px;
-}
+.bashkent-main .bashkent-about-panel .about-header{padding: 5px 8px;}
+.bashkent-main .bashkent-about-panel .about-header h2{font-size: 3.5rem;cursor: default;transition: 0.3s;}
+.bashkent-main .bashkent-about-panel .about-header h2:hover{color: #ca3d26;}
+.bashkent-main .bashkent-about-panel .about-text p{font-size: 1.6rem;text-align: center;padding: 5px 8px;}
 @media only screen and (min-width: 992px){
     .bashkent-main .bashkent-about-panel .about-text p{
         text-align: start;
@@ -427,53 +414,35 @@ footer .footer-bottom{font-size: 2rem;color: #fff;}
     text-decoration: none;
 }
 
+
 .bashkent-main .nb-header h2{
     font-size: 3.5rem;
     margin-bottom: -20%;
     transition: 0.3s;
     cursor: default;
 }
-.bashkent-main .nb-header:hover h2{
-    color: #ca3d26;
-}
-.bashkent-main .nb-content span{
-    font-size: 2rem;
-    padding: 10px 0;
-}
+.bashkent-main .nb-header:hover h2{color: #ca3d26;}
+.bashkent-main .nb-content span{font-size: 2rem;padding: 10px 0;}
 
 
-.bashkent-main .filial-swiper{
-    width: 100%;
-    padding: 50px 0;
-}
+
+.bashkent-main .filial-swiper{width: 100%;padding: 50px 0;}
 .bashkent-main .filial-swiper .f-header h2{
     font-size: 3.5rem;
     margin-bottom: -20%;
     transition: 0.3s;
     cursor: default;
 }
-.bashkent-main .filial-swiper .f-header:hover h2{
-    color: #ca3d26;
-}
-.bashkent-main .filial-swiper .mySwiper2{
-    width: 100%;
-}
+.bashkent-main .filial-swiper .f-header:hover h2{color: #ca3d26;}
+.bashkent-main .filial-swiper .mySwiper2{width: 100%;}
 .bashkent-main .filial-swiper .mySwiper2 .swiper-slide{
     width: 100%;
     position: relative;
     overflow: hidden;
 }
-.bashkent-main .filial-swiper .mySwiper2 .swiper-slide .slide-image{
-    width: 100%;
-    display: block;
-}
-.bashkent-main .filial-swiper .mySwiper2 .swiper-slide .slide-image img{
-    transition: 0.3s;   
-}
-.bashkent-main .filial-swiper .mySwiper2 .swiper-slide .slide-image:hover img{
-    transform: scale(1.2);
-    
-}
+.bashkent-main .filial-swiper .mySwiper2 .swiper-slide .slide-image{width: 100%;display: block;}
+.bashkent-main .filial-swiper .mySwiper2 .swiper-slide .slide-image img{transition: 0.3s;   }
+.bashkent-main .filial-swiper .mySwiper2 .swiper-slide .slide-image:hover img{transform: scale(1.2);  }
 .bashkent-main .filial-swiper .mySwiper2 .swiper-slide span{
     position: absolute;
     bottom: 0;
@@ -483,16 +452,12 @@ footer .footer-bottom{font-size: 2rem;color: #fff;}
     font-weight: bold;
 }
 @media only screen and (min-width:768px){
-    .bashkent-main .filial-swiper .mySwiper2 .swiper-slide span{
-        font-size: 2.5rem;
-    }
+    .bashkent-main .filial-swiper .mySwiper2 .swiper-slide span{font-size: 2.5rem;}
 }
 
 
 
-.bashkent-main .menu-section .menu-item{
-    position: relative;
-}
+.bashkent-main .menu-section .menu-item{position: relative;}
 .bashkent-main .menu-section .menu-item .black-bg{
     position: absolute;
     top: 0;
@@ -502,9 +467,7 @@ footer .footer-bottom{font-size: 2rem;color: #fff;}
     background-color: rgba(0,0,0,0.3);
     transition: 0.3s;
 }
-.bashkent-main .menu-section .menu-item:hover .black-bg{
-    background-color: rgba(0,0,0,0.8);
-}
+.bashkent-main .menu-section .menu-item:hover .black-bg{background-color: rgba(0,0,0,0.8);}
 .bashkent-main .menu-section .menu-item a{
     position: absolute;
     top: 0;
@@ -523,14 +486,10 @@ footer .footer-bottom{font-size: 2rem;color: #fff;}
 
 
 
-.bashkent-main .partners-swiper .mySwiper3{
-    width: 100%;
-}
-
+.bashkent-main .partners-swiper .mySwiper3{width: 100%;}
 .bashkent-main .partners-swiper .mySwiper3 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -554,26 +513,16 @@ footer .footer-bottom{font-size: 2rem;color: #fff;}
     transition: 0.3s;
     cursor: default;
 }
-.bashkent-main .blog-section .blog-header:hover h2{
-    color: #ca3d26;
-}
-
-.bashkent-main .blog-section .mySwiper4{
-    width: 100%;
-}
-
+.bashkent-main .blog-section .blog-header:hover h2{color: #ca3d26;}
+.bashkent-main .blog-section .mySwiper4{width: 100%;}
 .bashkent-main .blog-section .mySwiper4 .blog-panel{
     color: #000;
     text-decoration: none;
     cursor: default;
     transition: 0.3s;
 }
-.bashkent-main .blog-section .mySwiper4 .swiper-slide{
-    transition: 0.3s;
-}
-.blog-section .mySwiper4 .swiper-slide:hover{
-    box-shadow: 0 0 8px rgba(0,0,0,0.4);
-}
+.bashkent-main .blog-section .mySwiper4 .swiper-slide{transition: 0.3s;}
+.blog-section .mySwiper4 .swiper-slide:hover{box-shadow: 0 0 8px rgba(0,0,0,0.4);}
 .bashkent-main .blog-section .mySwiper4 .blog-panel .blog-image img{
     height: 300px;
     object-fit: cover;
@@ -585,9 +534,7 @@ footer .footer-bottom{font-size: 2rem;color: #fff;}
     transition: 0.3s;
     padding: 8px;
 }
-.bashkent-main .blog-content h2:hover{
-    color: #ca3d26;
-}
+.bashkent-main .blog-content h2:hover{color: #ca3d26;}
 .bashkent-main .blog-content .red-line{
     width: 30%;
     height: 2px;
@@ -608,13 +555,8 @@ footer .footer-bottom{font-size: 2rem;color: #fff;}
     color: #000;
     transition: 0.3s;
 }
-.bashkent-main .blog-content a:hover{
-    color: #ca3d26;
-}
-.bashkent-main .blog-content span{
-    font-size: 1.8rem;
-    padding: 5px 0 10px;
-}
+.bashkent-main .blog-content a:hover{color: #ca3d26;}
+.bashkent-main .blog-content span{font-size: 1.8rem;padding: 5px 0 10px;}
 
 
 
@@ -622,14 +564,9 @@ footer .footer-bottom{font-size: 2rem;color: #fff;}
     width: 80%;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 15px;
-    
+    gap: 15px;  
 }
-.bashkent-main .gallery .image-grid a img{
-    height: 100%;
-    object-fit: cover;
-    
-}
+.bashkent-main .gallery .image-grid a img{height: 100%;object-fit: cover;   }
 @media only screen and (min-width: 768px){
     .bashkent-main .gallery .image-grid{
         width: 100%;
@@ -640,27 +577,13 @@ footer .footer-bottom{font-size: 2rem;color: #fff;}
         "img-3 img-3 img-5"
         "img-6 img-7 img-7";
     }
-    .bashkent-main .gallery .image-grid a:nth-child(1){
-        grid-area: img-1;
-    }
-    .bashkent-main .gallery .image-grid a:nth-child(2){
-        grid-area: img-2;
-    }
-    .bashkent-main .gallery .image-grid a:nth-child(3){
-        grid-area: img-3;
-    }
-    .bashkent-main .gallery .image-grid a:nth-child(4){
-        grid-area: img-4;
-    }
-    .bashkent-main .gallery .image-grid a:nth-child(5){
-        grid-area: img-5;
-    }
-    .bashkent-main .gallery .image-grid a:nth-child(6){
-        grid-area: img-6;
-    }
-    .bashkent-main .gallery .image-grid a:nth-child(7){
-        grid-area: img-7;
-    }  
+    .bashkent-main .gallery .image-grid a:nth-child(1){grid-area: img-1;}
+    .bashkent-main .gallery .image-grid a:nth-child(2){grid-area: img-2;}
+    .bashkent-main .gallery .image-grid a:nth-child(3){grid-area: img-3;}
+    .bashkent-main .gallery .image-grid a:nth-child(4){grid-area: img-4;}
+    .bashkent-main .gallery .image-grid a:nth-child(5){grid-area: img-5;}
+    .bashkent-main .gallery .image-grid a:nth-child(6){grid-area: img-6;}
+    .bashkent-main .gallery .image-grid a:nth-child(7){grid-area: img-7;}  
 }
 @media only screen and (min-width: 992px){
     .bashkent-main .gallery .image-grid{
@@ -676,37 +599,115 @@ footer .footer-bottom{font-size: 2rem;color: #fff;}
 
 
 
-.comments .comment-header h2{
+.bashkent-main .comments .comment-header h2{
     font-size: 3.3rem;
     margin-bottom: -17%;
     transition: 0.3s;
     cursor: default;
 }
-.comments .comment-header:hover h2{
-    color: #ca3d26;
-}
-
-.comments .mySwiper5{
-    width: 70%;
-}
-
-.comments .mySwiper5 .user-image img{
+.bashkent-main .comments .comment-header:hover h2{color: #ca3d26;}
+.bashkent-main .comments .mySwiper5{width: 70%;}
+.bashkent-main .comments .mySwiper5 .user-image img{
     width: 110px;
     height: 110px;
     object-fit: cover;
     border-radius: 50%;
 }
-.comments .mySwiper5 .user-point i{
-    color: #FFD700;
-}
-.comments .mySwiper5 .user-comment{
-    
+.bashkent-main .comments .mySwiper5 .user-point i{color: #FFD700;}
+.bashkent-main .comments .mySwiper5 .user-comment{
     display: flex;
     align-items: center;
     padding: 10px 15px;
     margin: 10px 15px;
 }
-.comments .mySwiper5 .user-comment span{
+.bashkent-main .comments .mySwiper5 .user-comment span{font-size: 1.6rem;padding: 0 7px;}
+
+
+
+
+/*BASHKENT ABOUT*/
+
+.bashkent-about .bashkent-about-panel .about-header{padding: 5px 8px;}
+.bashkent-about .bashkent-about-panel .about-header h2{font-size: 3.5rem;cursor: default;transition: 0.3s;}
+.bashkent-about .bashkent-about-panel .about-header h2:hover{color: #ca3d26;}
+.bashkent-about .bashkent-about-panel .about-text p{font-size: 1.6rem;text-align: center;padding: 5px 8px;}
+@media only screen and (min-width: 992px){
+    .bashkent-main .bashkent-about-panel .about-text p{
+        text-align: start;
+        padding: 0 8px;
+        margin: 0;
+    }
+}
+
+
+.bashkent-about .nb-header h2{
+    font-size: 3.5rem;
+    margin-bottom: -20%;
+    transition: 0.3s;
+    cursor: default;
+}
+.bashkent-about .nb-header:hover h2{color: #ca3d26;}
+.bashkent-about .nb-content span{font-size: 2rem;padding: 10px 0;}
+
+
+.bashkent-about .filial-swiper{width: 100%;padding: 50px 0;}
+.bashkent-about .filial-swiper .f-header h2{
+    font-size: 3.5rem;
+    margin-bottom: -20%;
+    transition: 0.3s;
+    cursor: default;
+}
+.bashkent-about .filial-swiper .f-header:hover h2{color: #ca3d26;}
+.bashkent-about .filial-swiper .mySwiper2{width: 100%;}
+.bashkent-about .filial-swiper .mySwiper2 .swiper-slide{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.bashkent-about .filial-swiper .mySwiper2 .swiper-slide .slide-image{width: 100%;display: block;}
+.bashkent-about .filial-swiper .mySwiper2 .swiper-slide .slide-image img{transition: 0.3s;   }
+.bashkent-about .filial-swiper .mySwiper2 .swiper-slide .slide-image:hover img{transform: scale(1.2);  }
+.bashkent-about .filial-swiper .mySwiper2 .swiper-slide span{
+    position: absolute;
+    bottom: 0;
+    margin: 30px;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+}
+@media only screen and (min-width:768px){
+    .bashkent-about .filial-swiper .mySwiper2 .swiper-slide span{font-size: 2.5rem;}
+}
+
+
+
+
+/*BASHKENT FILIALLAR*/
+
+.bashkent-filial .filial-swiper{width: 100%;padding: 50px 0;}
+.bashkent-filial .filial-swiper .f-header h2{
+    font-size: 3.5rem;
+    margin-bottom: -20%;
+    transition: 0.3s;
+    cursor: default;
+}
+.bashkent-filial .filial-swiper .f-header:hover h2{color: #ca3d26;}
+.bashkent-filial .filial-swiper .mySwiper2{width: 100%;}
+.bashkent-filial .filial-swiper .mySwiper2 .swiper-slide{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.bashkent-filial .filial-swiper .mySwiper2 .swiper-slide .slide-item{color: #000;text-decoration: none;}
+.bashkent-filial .filial-swiper .mySwiper2 .swiper-slide .slide-image{width: 100%;overflow: hidden;}
+.bashkent-filial .filial-swiper .mySwiper2 .swiper-slide .slide-image img{transition: 0.3s;}
+.bashkent-filial .filial-swiper .mySwiper2 .swiper-slide .slide-image:hover img{transform: scale(1.2);  }
+.filial-info h3{
+    font-size: 2rem;
+}
+.filial-info span{
     font-size: 1.6rem;
-    padding: 0 7px;
+}
+.filial-info span i{
+    color: #ca3d26;
 }

@@ -119,8 +119,88 @@
         </div>
     </header>
 
-   <main class="py-5">
-    
+   <main class="py-5 bashkent-about">
+    <section class="bashkent-about-panel d-flex justify-content-center w-100">
+        <div class="container row">
+            <div class="about-image col-12 col-lg-6 d-flex align-items-start mt-5">
+                <img src="../image/1-bashkent-main/about-img.png" class="w-100">
+            </div>
+            <div class="about-content col-12 col-lg-6 py-5 d-flex flex-column">
+                
+                <div class="about-text">
+                    <p>
+                        Başkent Restoran və Şiriniyyat Evi 2004-cü ildən dəyərli 
+                        müştərilərinin xidmətindədir. Bakı şəhərində Memar Əcəmi, 
+                        Nəriman Nərimanov, 28 May şöbələri olmaqla 3 restoran və 
+                        İnşaatçılar şöbəsində isə şiriniyyat evi olaraq fəaliyyət göstərir. 
+                    </p>
+                    <p>
+                        Restoran üçün qonaqların məmnuniyyəti ən vacib pirinsiplərdən 
+                        olduğu üçün daim xidmət keyfiyyətinin artırılması üzərində çalışır. 
+                        İş fəaliyyəti boyu daim ixtisas təlimləri keçmiş personal ilə müştərilərin 
+                        həm istirahət edəcəyi, həm də damaq dadına uyğun yemək çeşidləri ilə zəngin 
+                        məkanlardan biri olmaqda iddialıdır. 
+                    </p>
+                    <p>
+                        Restoranlar şəbəkəsində həftə içi və həftə sonu olmaqla səhər yeməyi, 
+                        biznes görüşlərinizin, təqdimatların keçirilməsi üçün ayrıca otaqlar,  
+                        dostlarınızla, həmkarlarınızla çay-kofe guşəsində rahatlıqla söhbət etmə imkanı, 
+                        həmçinin iştən sonra günün gərginliyini üzərinizdən atmağa kömək edəcək canlı musiqi 
+                        mövcuddur. Dostlarınız, doğmalarınızla zəngin milli, türk və avropa mətbəxinə aid dadlı 
+                        təamlardan dada, ailənizlə birliktə rahat şəkildə əylənə və istirahət edə bilərsiniz. 
+                        Restoranların hər birində hər zövqə uyğun menyudan istifadə etməklə hər qonağa özəl 
+                        yanaşmanı hiss etmək mümkündür. 
+                    </p>
+                    <p>
+                        BAŞKENT - " Hər gün eyni sevgi və həyəcanla xidmətinizdəyik. Gəlin, qonağımız olun! "
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section class="niye-biz container d-flex flex-column align-items-center py-4">
+        <div class="nb-header d-flex flex-column align-items-center py-3">
+            <h2 class="text-center">Niyə biz?</h2>
+            <img src="../image/design-wheat/rotate.png">
+        </div>
+        <div class="row w-100 nb-content">
+            <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center py-2">
+                <div><img src="../image/1-bashkent-main/small-img/img-1.png"></div>
+                <span class="text-center">Ürəkaçan məkan</span>
+            </div>
+            <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center py-2">
+                <div><img src="../image/1-bashkent-main/small-img/img-2.png"></div>
+                <span class="text-center">Dadlı yeməklər</span>
+            </div>
+            <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center py-2">
+                <div><img src="../image/1-bashkent-main/small-img/img-3.png"></div>
+                <span class="text-center">Gülərüz xidmət</span>
+            </div>
+        </div>
+    </section>
+    <section class="filial-swiper container d-flex flex-column align-items-center px-3">
+        <div class="f-header d-flex flex-column align-items-center py-3">
+            <h2 class="text-center">Filiallar</h2>
+            <img src="../image/design-wheat/rotate.png">
+        </div>
+        <div class="swiper mySwiper2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="#" class="slide-image"><img src="../image/1-bashkent-main/filial/img-1.png" class="w-100"></a>
+                    <span>Başkent Nərimanov</span>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#" class="slide-image"><img src="../image/1-bashkent-main/filial/img-2.png" class="w-100"></a>
+                    <span>Başkent 28 May</span>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#" class="slide-image"><img src="../image/1-bashkent-main/filial/img-3.png" class="w-100"></a>
+                    <span>Başkent Memar Əcəmi</span>
+                </div>
+            </div>
+        </div>
+    </section>
    </main>
 
    <footer>
@@ -195,6 +275,24 @@
             el: ".swiper-pagination",
             clickable: true,
           },
+        });
+      </script>
+      <script>
+        var swiper = new Swiper(".mySwiper2", {
+          autoplay: {
+          delay: 5000,
+          },
+          slidesPerView: 1,
+          spaceBetween: 20,
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          breakpoints: {
+            768: {slidesPerView: 2,spaceBetween: 20},
+            992: {slidesPerView: 3,spaceBetween: 20},
+            },
         });
       </script>
   </body>

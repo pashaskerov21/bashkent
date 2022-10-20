@@ -119,8 +119,50 @@
         </div>
     </header>
 
-   <main class="py-5">
-    
+   <main class="py-5 bashkent-filial">
+    <section class="filial-swiper container d-flex flex-column align-items-center px-3">
+        <div class="f-header d-flex flex-column align-items-center py-3">
+            <h2 class="text-center">Filiallar</h2>
+            <img src="../image/design-wheat/rotate.png">
+        </div>
+        <div class="swiper mySwiper2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="#" class="slide-item d-flex flex-column">
+                        <div class="slide-image"><img src="../image/1-bashkent-main/filial/img-1.png" class="w-100"></div>
+                        <div class="filial-info d-flex flex-column px-2 py-4">
+                            <h3>BAŞKENT NƏRİMANOV</h3>
+                            <span><i class="fa-solid fa-location-dot"></i> Nərimanov</span>
+                            <span><i class="fa-solid fa-phone"></i> 554501102</span>
+                            <span><i class="fa-solid fa-phone"></i> 554501123</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#" class="slide-item d-flex flex-column">
+                        <div class="slide-image"><img src="../image/1-bashkent-main/filial/img-2.png" class="w-100"></div>
+                        <div class="filial-info d-flex flex-column px-2 py-4">
+                            <h3>BAŞKENT 28 MAY</h3>
+                            <span><i class="fa-solid fa-location-dot"></i> 28 May</span>
+                            <span><i class="fa-solid fa-phone"></i> 554501102</span>
+                            <span><i class="fa-solid fa-phone"></i> 554501123</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#" class="slide-item d-flex flex-column">
+                        <div class="slide-image"><img src="../image/1-bashkent-main/filial/img-3.png" class="w-100"></div>
+                        <div class="filial-info d-flex flex-column px-2 py-4">
+                            <h3>BAŞKENT MEMAR ƏCƏMİ</h3>
+                            <span><i class="fa-solid fa-location-dot"></i> Memar Əcəmi</span>
+                            <span><i class="fa-solid fa-phone"></i> 554501102</span>
+                            <span><i class="fa-solid fa-phone"></i> 554501123</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
    </main>
 
    <footer>
@@ -195,6 +237,24 @@
             el: ".swiper-pagination",
             clickable: true,
           },
+        });
+      </script>
+      <script>
+        var swiper = new Swiper(".mySwiper2", {
+          autoplay: {
+          delay: 5000,
+          },
+          slidesPerView: 1,
+          spaceBetween: 20,
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          breakpoints: {
+            768: {slidesPerView: 2,spaceBetween: 20},
+            992: {slidesPerView: 3,spaceBetween: 20},
+            },
         });
       </script>
   </body>
