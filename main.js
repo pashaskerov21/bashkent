@@ -61,3 +61,21 @@ for(let i = 0; i < menuItemsBtns.length;i++){
     })(i);
 }
 
+
+let galleryBtns = document.querySelectorAll(".bashkent-gallery .g-button");
+let galleryPanels = document.querySelectorAll(".bashkent-gallery .gallery-panel");
+
+for(let i = 0; i < galleryBtns.length;i++){
+    (function(index){
+        galleryBtns[i].addEventListener("click",function(){
+            for(let i = 0; i < galleryBtns.length; i++){
+                galleryBtns[i].classList.remove("active-gbtn");
+            }
+            galleryBtns[index].classList.add("active-gbtn");
+            for(let i = 0; i < galleryPanels.length; i++){
+                galleryPanels[i].classList.add("d-none");
+            }
+            galleryPanels[index].classList.remove("d-none")
+        })
+    })(i);
+}
