@@ -711,3 +711,83 @@ footer .footer-bottom{font-size: 2rem;color: #fff;}
 .filial-info span i{
     color: #ca3d26;
 }
+
+
+
+
+
+/*RESTORAN MENU*/
+.bashkent-menu .menu-section .menu-item{position: relative;}
+.bashkent-menu .menu-section .menu-item .black-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+.bashkent-menu .menu-section .menu-item:hover .black-bg{background-color: rgba(0,0,0,0.8);}
+.bashkent-menu .menu-section .menu-item a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 2.2rem;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.bashkent-menu .menu-section .menu-item:hover a{
+    transform: translate(10px, 50px);
+}
+
+
+
+/*MENU İTEMS*/
+
+.bashkent-menu-items .menu-items-buttons{
+    overflow-y: auto;
+}
+.bashkent-menu-items .menu-items-buttons::-webkit-scrollbar{
+    height: 5px;
+}
+.bashkent-menu-items .menu-items-buttons::-webkit-scrollbar-thumb{background-color: #ca3d26; border-radius: 10px;}
+.bashkent-menu-items .menu-items-buttons::-webkit-scrollbar-track{background-color: #fff;}
+.bashkent-menu-items .menu-items-buttons .menu-btn{
+    padding: 10px 20px;
+    margin: 0 5px;
+    min-width: 225px;
+    font-size: 1.8rem;
+    border: none;
+}
+@media only screen and (min-width:1201px){
+    .bashkent-menu-items .menu-items-buttons .menu-btn{min-width: auto;}
+}
+
+.active-btn{background: #ca3d26;color: #fff;}
+
+
+
+.bashkent-menu-items .menu-item-panel{
+    width: 70%;
+    animation: show-panel 0.5s ease forwards;
+}
+.bashkent-menu-items .menu-item-panel .m-item{transition: 0.3s;}
+.bashkent-menu-items .menu-item-panel .m-item:hover{box-shadow: 0 0 5px rgba(0,0,0,0.3);}
+@keyframes show-panel{
+    0%{transform: scale(0);}
+    100%{transform: scale(1);}
+}
+.bashkent-menu-items .menu-item-image img{height: 220px;object-fit: cover;}
+.bashkent-menu-items .menu-item-panel h4{font-size: 1.8rem;padding-top: 10px;}
+.bashkent-menu-items .menu-item-panel p{font-size: 1.6rem;}
+.bashkent-menu-items .menu-item-panel span{font-size: 1.6rem;}
+@media only screen and (min-width:768px){
+    .bashkent-menu-items .menu-item-panel{width: 90%;}
+}
+@media only screen and (min-width:992px){
+    .bashkent-menu-items .menu-item-panel{width: 100%;}
+}
+

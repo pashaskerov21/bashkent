@@ -41,3 +41,23 @@ body.onscroll = function(){
 pageUpScrollBtn.onclick = function(){
     window.scrollTo(0,0);
 }
+
+
+let menuItemsBtns = document.querySelectorAll(".bashkent-menu-items .menu-btn");
+let menuItemPanels = document.querySelectorAll(".bashkent-menu-items .menu-item-panel");
+
+for(let i = 0; i < menuItemsBtns.length;i++){
+    (function(index){
+        menuItemsBtns[i].addEventListener("click",function(){
+            for(let i = 0; i < menuItemsBtns.length; i++){
+                menuItemsBtns[i].classList.remove("active-btn");
+            }
+            menuItemsBtns[index].classList.add("active-btn");
+            for(let i = 0; i < menuItemPanels.length;i++){
+                menuItemPanels[i].classList.add("d-none");
+            }
+            menuItemPanels[index].classList.remove("d-none");
+        })
+    })(i);
+}
+
