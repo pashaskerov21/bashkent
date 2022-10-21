@@ -968,3 +968,91 @@ footer .footer-bottom{font-size: 2rem;color: #fff;}
     
     border-radius: 10px;
 }
+
+
+.bashkent-comment .comments-wrapper{
+    width: 90%;
+}
+
+
+
+.bashkent-comment .comments-wrapper .comment-item .user-image img{
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.bashkent-comment .comments-wrapper .comment-item .user-point i{color: #FFD700;}
+.bashkent-comment .comments-wrapper .comment-item .user-comment{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    margin: 10px 15px;
+}
+.bashkent-comment .comments-wrapper .comment-item .user-comment span{font-size: 1.6rem;padding: 0 7px;}
+
+.bashkent-comment .red-line{
+    width: 3px;
+    background-color: #ca3d26;
+}
+
+
+.bashkent-comment .comment-form .comment-header h2{
+    font-size: 3.3rem;
+    margin-bottom: -17%;
+    transition: 0.3s;
+    cursor: default;
+}
+
+.bashkent-comment .comment-form{
+    width: 90%;
+    padding: 20px;
+    margin: 40px 0;
+}
+
+.bashkent-comment .comment-form form{
+    width: 100%;
+}
+.bashkent-comment .comment-form form .form-input{
+    padding: 10px 15px;
+    margin: 7px 0;
+    font-size: 1.8rem;
+    border: none;
+    border-bottom: 1px solid #CDCDCD;
+    border-radius: 0;
+    transition: 0.3s;
+}
+.bashkent-comment .comment-form form .form-input:focus{
+    box-shadow: none;
+    border-bottom-color: #ca3d26;
+}
+.bashkent-comment .comment-form textarea{
+    padding: 10px 15px;
+    margin: 7px 0;
+    font-size: 2rem;
+    height: 120px;
+}
+.bashkent-comment .comment-form textarea:focus{
+    box-shadow: none;
+    border-color: #ca3d26;
+}
+.bashkent-comment .comment-form .comment-header:hover h2{color: #ca3d26;}
+
+.bashkent-comment .comment-form button{
+    border: none;
+    background-color: #ca3d26;
+    padding: 10px 30px;
+    font-size: 2rem;
+    color: #fff;
+    align-self: flex-start;
+    margin: 20px 0;
+}
+
+@media only screen and (min-width:992px){
+    .bashkent-comment .c-item:first-child{
+        border-right: 1px solid #ca3d26;
+    }
+    .bashkent-comment .c-item:last-child{
+        border-left: 1px solid #ca3d26;
+    }
+}
