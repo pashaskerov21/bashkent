@@ -1056,3 +1056,56 @@ footer .footer-bottom{font-size: 2rem;color: #fff;}
         border-left: 1px solid #ca3d26;
     }
 }
+
+
+
+
+.bashkent-contact .contact-form{
+    width: 90%;
+    padding: 20px;
+    margin: 40px 0;
+}
+
+.bashkent-contact .contact-form form{
+    width: 100%;
+}
+.bashkent-contact .contact-form form .form-input{
+    padding: 10px 15px;
+    margin: 7px 0;
+    font-size: 1.8rem;
+    border: none;
+    border-bottom: 1px solid #CDCDCD;
+    border-radius: 0;
+    transition: 0.3s;
+}
+.bashkent-contact .contact-form form .form-input:focus{
+    box-shadow: none;
+    border-bottom-color: #ca3d26;
+}
+.bashkent-contact .contact-form textarea{
+    padding: 10px 15px;
+    margin: 7px 0;
+    font-size: 2rem;
+    height: 120px;
+}
+.bashkent-contact .contact-form textarea:focus{
+    box-shadow: none;
+    border-color: #ca3d26;
+}
+
+.bashkent-contact .contact-form button{
+    border: none;
+    background-color: #ca3d26;
+    padding: 10px 30px;
+    font-size: 2rem;
+    color: #fff;
+    align-self: flex-start;
+    margin: 20px 0;
+}
+
+.location-info h4{
+    font-size: 2.2rem;
+}
+.location-info span{
+    font-size: 1.8rem;
+}
