@@ -775,12 +775,8 @@ footer .footer-bottom{font-size: 2rem;color: #fff;}
 
 /*MENU İTEMS*/
 
-.bashkent-menu-items .menu-items-buttons{
-    overflow-y: auto;
-}
-.bashkent-menu-items .menu-items-buttons::-webkit-scrollbar{
-    height: 5px;
-}
+.bashkent-menu-items .menu-items-buttons{overflow-y: auto;}
+.bashkent-menu-items .menu-items-buttons::-webkit-scrollbar{height: 5px;}
 .bashkent-menu-items .menu-items-buttons::-webkit-scrollbar-thumb{background-color: #ca3d26; border-radius: 10px;}
 .bashkent-menu-items .menu-items-buttons::-webkit-scrollbar-track{background-color: #fff;}
 .bashkent-menu-items .menu-items-buttons .menu-btn{
@@ -796,12 +792,7 @@ footer .footer-bottom{font-size: 2rem;color: #fff;}
 
 .active-btn{background: #ca3d26;color: #fff;}
 
-
-
-.bashkent-menu-items .menu-item-panel{
-    width: 70%;
-    animation: show-panel 0.5s ease forwards;
-}
+.bashkent-menu-items .menu-item-panel{width: 80%;animation: show-panel 0.5s ease forwards;}
 .bashkent-menu-items .menu-item-panel .m-item{transition: 0.3s;}
 .bashkent-menu-items .menu-item-panel .m-item:hover{box-shadow: 0 0 5px rgba(0,0,0,0.3);}
 @keyframes show-panel{
@@ -821,11 +812,8 @@ footer .footer-bottom{font-size: 2rem;color: #fff;}
 
 
 
-.gallery-panel{
-    animation: show-panel 0.5s ease forwards;
-}
-
-.gallery-buttons .g-button{
+.bashkent-gallery .gallery-panel{animation: show-panel 0.5s ease forwards;}
+.bashkent-gallery .gallery-buttons .g-button{
     border: none;
     padding: 10px 20px;
     margin: 0 15px;
@@ -834,24 +822,18 @@ footer .footer-bottom{font-size: 2rem;color: #fff;}
     background-color: transparent;
     transition: 0.3s;
 }
-.gallery-buttons .g-button:hover{
-    color: #ca3d26;
-}
+.bashkent-gallery  .gallery-buttons .g-button:hover{color: #ca3d26;}
 .active-gbtn{color: #ca3d26;}
-
-.foto-grid-container{
+.bashkent-gallery .foto-grid-container{
     width: 80%;
     display: grid;
     grid-template-columns: 1fr;
     gap: 15px;
 }
-.foto-grid-container a img{
-    height: 100%;
-    object-fit: cover;
-}
+.bashkent-gallery  .foto-grid-container a img{height: 100%;object-fit: cover;}
 
 @media only screen and (min-width:768px){
-    .foto-grid-container{
+    .bashkent-gallery  .foto-grid-container{
         width: 100%;
         grid-template-columns: repeat(2,1fr);
         grid-template-areas: 
@@ -891,7 +873,7 @@ footer .footer-bottom{font-size: 2rem;color: #fff;}
     
 }
 @media only screen and (min-width:992px){
-    .foto-grid-container{
+    .bashkent-gallery  .foto-grid-container{
         grid-template-columns: repeat(4,1fr);
         grid-template-areas: 
         "img-1 img-2 img-4 img-4"
@@ -905,16 +887,9 @@ footer .footer-bottom{font-size: 2rem;color: #fff;}
 }
 
 
-.video-container .video-item{
-    width: 95%;
-    position: relative;
-    
-}
-.video-container .video-item img{
-    height: 200px;
-    object-fit: cover;
-}
-.video-container .video-item .play-btn{
+.bashkent-gallery .video-container .video-item{width: 95%; position: relative;}
+.bashkent-gallery .video-container .video-item img{height: 200px;object-fit: cover;}
+.bashkent-gallery .video-container .video-item .play-btn{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -964,18 +939,12 @@ footer .footer-bottom{font-size: 2rem;color: #fff;}
 }
 
 
-.fr-menu .menu-image img{
-    
-    border-radius: 10px;
-}
-
-
-.bashkent-comment .comments-wrapper{
-    width: 90%;
-}
+.fr-menu .menu-image img{border-radius: 10px;}
 
 
 
+
+.bashkent-comment .comments-wrapper{width: 90%;}
 .bashkent-comment .comments-wrapper .comment-item .user-image img{
     width: 110px;
     height: 110px;
@@ -990,12 +959,7 @@ footer .footer-bottom{font-size: 2rem;color: #fff;}
     margin: 10px 15px;
 }
 .bashkent-comment .comments-wrapper .comment-item .user-comment span{font-size: 1.6rem;padding: 0 7px;}
-
-.bashkent-comment .red-line{
-    width: 3px;
-    background-color: #ca3d26;
-}
-
+.bashkent-comment .red-line{width: 3px;background-color: #ca3d26;}
 
 .bashkent-comment .comment-form .comment-header h2{
     font-size: 3.3rem;
@@ -1003,16 +967,13 @@ footer .footer-bottom{font-size: 2rem;color: #fff;}
     transition: 0.3s;
     cursor: default;
 }
-
 .bashkent-comment .comment-form{
     width: 90%;
     padding: 20px;
     margin: 40px 0;
 }
 
-.bashkent-comment .comment-form form{
-    width: 100%;
-}
+.bashkent-comment .comment-form form{width: 100%;}
 .bashkent-comment .comment-form form .form-input{
     padding: 10px 15px;
     margin: 7px 0;
@@ -1102,10 +1063,5 @@ footer .footer-bottom{font-size: 2rem;color: #fff;}
     align-self: flex-start;
     margin: 20px 0;
 }
-
-.location-info h4{
-    font-size: 2.2rem;
-}
-.location-info span{
-    font-size: 1.8rem;
-}
+.bashkent-contact .location-info h4{font-size: 2.2rem;}
+.bashkent-contact .location-info span{font-size: 1.8rem;}
